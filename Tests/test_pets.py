@@ -23,9 +23,8 @@ def test_post_pet():
     assert pet_id
 
 
-def test_post_pet_photo(pet_photo='Tests\\photo\\pet.jpg'):
-    pet_photo = os.path.join(os.path.dirname(__file__), pet_photo)
-    status = pt.post_pet_photo()[0]
+def test_post_pet_photo():
+    status = pt.post_pet_photo()
     assert status == 200
 
 

@@ -157,4 +157,4 @@ class Pets:
 # Pets().get_list_users()
 # Pets().post_pet()
 # Pets().post_pet_photo()
-# Pets().delete_all_pets()
+Pets().delete_all_pets()
